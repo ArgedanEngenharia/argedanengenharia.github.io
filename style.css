@@ -1,12 +1,22 @@
 body {
   color: #fff;
+  margin-top: 1em;
 }
-h1 {
+h1,
+h2 {
   font-family: 'Audimat', sans-serif;
   font-weight: normal;
+}
+header {
+	margin: auto;
+	width: 247px;
+}
+.site-title,
+.site-description {
+  margin: 0;
   text-align: center;
   display: inline-block;
-  padding: 10px;
+  padding: 10px 20px;
 }
 .site-title {
   /*background: #4caf50;*/
@@ -14,6 +24,9 @@ h1 {
   font-size: 4em;
   line-height: 1.3;
 }
-.site-title {
-  margin: 0;
+.site-description {
+	color: #f44336;
+	padding: 5px;
+	border: 1px solid #f44336;
+	width: 235px;
 }
